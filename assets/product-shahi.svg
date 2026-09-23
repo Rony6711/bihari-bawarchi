@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 780" role="img" aria-label="Shahi Treats by Bihari Bawarchi">
+  <defs>
+    <linearGradient id="boxFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B2A36"/>
+      <stop offset="55%" stop-color="#6E1F2A"/>
+      <stop offset="100%" stop-color="#4E151D"/>
+    </linearGradient>
+    <linearGradient id="boxTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A83232"/>
+      <stop offset="100%" stop-color="#6E1F2A"/>
+    </linearGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1E0A0"/>
+      <stop offset="45%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#8E7014"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241714" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#241714" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#FFF8EA" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFF8EA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="miniMotif" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.2" fill="#C9A227" opacity="0.28"/>
+      <path d="M20 12 C22 16 26 18 20 22 C14 18 18 16 20 12Z" fill="#C9A227" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <ellipse cx="320" cy="730" rx="210" ry="22" fill="url(#shadow)"/>
+
+  <g transform="translate(80,70)">
+    <path d="M40 70 L240 10 L440 70 L240 140 Z" fill="url(#boxTop)"/>
+    <path d="M40 70 L240 140 L240 560 L40 490 Z" fill="#5A1A24"/>
+    <path d="M240 140 L440 70 L440 490 L240 560 Z" fill="url(#boxFront)"/>
+    <path d="M240 140 L440 70 L440 490 L240 560 Z" fill="url(#miniMotif)"/>
+    <path d="M40 70 L240 10 L440 70 L240 140 Z" fill="#C9A227" opacity="0.08"/>
+
+    <path d="M250 168 L420 102 L420 458 L250 524 Z" fill="none" stroke="url(#goldFoil)" stroke-width="3"/>
+    <path d="M262 180 L408 116 L408 444 L262 508 Z" fill="none" stroke="url(#goldFoil)" stroke-width="1" opacity="0.7"/>
+
+    <text x="335" y="250" text-anchor="middle" transform="skewY(-16)" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#E8D48A">BIHARI BAWARCHI</text>
+    <text x="335" y="318" text-anchor="middle" transform="skewY(-16)" font-family="Georgia, serif" font-size="36" font-weight="700" letter-spacing="2" fill="url(#goldFoil)">SHAHI</text>
+    <text x="335" y="360" text-anchor="middle" transform="skewY(-16)" font-family="Georgia, serif" font-size="28" font-weight="600" letter-spacing="6" fill="#FFF8EA">TREATS</text>
+    <path d="M280 378 Q335 392 390 366" fill="none" stroke="#C9A227" stroke-width="1.4" transform="skewY(-16)"/>
+    <text x="335" y="410" text-anchor="middle" transform="skewY(-16)" font-family="Georgia, serif" font-size="13" letter-spacing="3" fill="#E8D48A">TASTE THE TRADITION</text>
+
+    <ellipse cx="335" cy="455" rx="28" ry="10" fill="#C9A227" opacity="0.9" transform="skewY(-16)"/>
+    <text x="335" y="460" text-anchor="middle" transform="skewY(-16)" font-family="Georgia, serif" font-size="10" fill="#6E1F2A" font-weight="700">PREMIUM</text>
+  </g>
+
+  <g transform="translate(118,92)">
+    <ellipse cx="70" cy="86" rx="28" ry="14" fill="#C9A227"/>
+    <ellipse cx="70" cy="80" rx="26" ry="12" fill="#E6C35A"/>
+    <circle cx="62" cy="76" r="2" fill="#8E7014" opacity="0.45"/>
+    <circle cx="78" cy="78" r="1.6" fill="#8E7014" opacity="0.4"/>
+    <ellipse cx="130" cy="78" rx="24" ry="12" fill="#C9A227"/>
+    <ellipse cx="130" cy="73" rx="22" ry="10" fill="#F0D47A"/>
+    <ellipse cx="98" cy="108" rx="22" ry="11" fill="#B48A1C"/>
+    <ellipse cx="98" cy="103" rx="20" ry="9" fill="#E2C056"/>
+  </g>
+
+  <rect x="0" y="0" width="640" height="780" fill="url(#glow)"/>
+</svg>

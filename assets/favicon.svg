@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#FFDF73"/>
+      <stop offset="100%" stop-color="#AA7C11"/>
+    </linearGradient>
+    <linearGradient id="maroonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#900C3F"/>
+      <stop offset="100%" stop-color="#58001D"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#maroonGrad)"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#goldGrad)" stroke-width="1.6"/>
+  <circle cx="12" cy="50" r="3.2" fill="url(#maroonGrad)" stroke="url(#goldGrad)" stroke-width="0.7"/>
+  <circle cx="52" cy="50" r="3.2" fill="url(#maroonGrad)" stroke="url(#goldGrad)" stroke-width="0.7"/>
+  <path d="M32 12 C34 20 40 24 32 32 C24 24 30 20 32 12Z" fill="url(#goldGrad)"/>
+  <text x="32" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="url(#goldGrad)">BB</text>
+</svg>
